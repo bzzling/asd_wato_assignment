@@ -13,6 +13,9 @@ endif()
 # Search for dependencies required for building this package
 find_package(ament_cmake REQUIRED) # ROS2 build tool
 find_package(rclcpp REQUIRED)      # ROS2 C++ package
+find_package(std_msgs REQUIRED)   # ROS2 standard messages
+find_package(nav_msgs REQUIRED)   # ROS2 navigation messages
+find_package(rclcpp_components REQUIRED) # ROS2 components
 
 # Compiles source files into a library
 # A library is not executed, instead other executables can link
