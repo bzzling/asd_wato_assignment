@@ -13,8 +13,8 @@ class CostmapNode : public rclcpp::Node {
  
   private:
     const double resolution = 0.1;
-    const int width = 200;
-    const int height = 200;
+    const int width = 300;
+    const int height = 300;
     const int obstacle_cost = 100;
     const double inflation_radius = 1.0;
     const int inflation_cost = 75;
